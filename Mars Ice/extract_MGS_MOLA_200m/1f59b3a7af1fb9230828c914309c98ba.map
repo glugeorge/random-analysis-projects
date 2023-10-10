@@ -1,0 +1,10 @@
+Group            = Mapping
+ProjectionName   = SimpleCylindrical
+PixelResolution  = 200.0
+TargetName       = MARS
+MinimumLatitude  = -50.0
+MaximumLatitude  = -35.0
+MinimumLongitude = 90.0
+MaximumLongitude = 120.0
+End_Group        = Mapping
+END

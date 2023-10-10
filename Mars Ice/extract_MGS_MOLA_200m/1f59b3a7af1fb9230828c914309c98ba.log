@@ -1,0 +1,32 @@
+       U.S. Geological Survey Cloud Processing Services
+                https://astrocloud.wr.usgs.gov
+
+       Processing Provided by ASTROGEOLOGY USGS Flagstaff
+              Contact Information: astroweb@usgs.gov
+
+____________________________________________________________________
+
+JOB INFORMATION
+
+     SERVICE:         MAP2
+     JOB KEY:         1f59b3a7af1fb9230828c914309c98ba
+     PROCESSING DATE: 2023-05-25 00:59
+     ISIS VERSION:   6.0.0     JOB STATUS:      SUCCESS
+     FILE COUNT:      1
+
+_____________________________________________________________________
+
+PROCESSING INFORMATION
+
+     IMAGE: Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2
+          PROCESS:  map2map
+               STATUS:     SUCCESS
+               PARAMETERS: {'from_': '/pds_san/PDS_Derived/MAP2/images/Mars/HRSC_MOLA_Blend/Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2.lbl', 'to': '/scratch/pds_services/workarea/1f59b3a7af1fb9230828c914309c98ba/Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2.reproj.cub', 'map': '/scratch/pds_services/workarea/1f59b3a7af1fb9230828c914309c98ba/1f59b3a7af1fb9230828c914309c98ba.map', 'matchmap': 'no', 'pixres': 'MAP', 'defaultrange': 'MAP', 'interp': 'bilinear', 'trim': 'YES'}
+               HELP LINK:  https://isis.astrogeology.usgs.gov/Application/presentation/Tabbed/map2map/map2map.html
+
+          PROCESS:  gdal_translate
+               STATUS:     SUCCESS
+               PARAMETERS: {'outputType': 'Int16', 'format': 'GTiff', 'creationOptions': ['bigtiff=if_safer'], 'src': '/scratch/pds_services/workarea/1f59b3a7af1fb9230828c914309c98ba/Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2.reproj.cub', 'dest': '/scratch/pds_services/workarea/1f59b3a7af1fb9230828c914309c98ba/Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2_final.tif'}
+               HELP LINK:  www.gdal.org/gdal_translate.html
+
+END-PROCESSING
